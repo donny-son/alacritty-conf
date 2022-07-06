@@ -13,15 +13,15 @@ window:
 
 font:
     normal:
-        family: Hack Nerd Font Mono
+        family: VictorMono NF
         style: Regular
     bold:
-        family: Hack Nerd Font Mono
+        family: VictorMono Nerd Font Mono
         style: Bold
     italic:
-        family: Hack Nerd Font Mono
-        style: Italic
-    size: 15.5
+        family: VictorMono Nerd Font
+        style: SemiBold Italic
+    size: 13
 colors:
     primary:
         background: '#24272e'
