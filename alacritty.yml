@@ -18,15 +18,15 @@ window:
 
 font:
     normal:
-        family: CodeNewRoman NF
-        style: Book
+        family: VictorMono NF
+        style: Regular
     bold:
-        family: CodeNewRoman NF
+        family: VictorMono Nerd Font Mono
         style: Bold
     italic:
-        family: CodeNewRoman NF
-        style: Italic
-    size: 18
+        family: VictorMono Nerd Font
+        style: SemiBold Italic
+    size: 15
 colors:
     primary:
         background: '#24272e'
@@ -71,10 +71,7 @@ mouse:
 selection:
     save_to_clipboard: true
 cursor:
-    thickness: 0.18
+    thickness: 0.2
     vi_mode_style: Block
     unfocused_hollow: true
-
-selection:
-    save_to_clipboard: true
 
