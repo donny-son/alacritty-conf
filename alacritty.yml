@@ -1,4 +1,9 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
+env:
+    TERM: xterm-256color
+
+scrolling:
+    history: 5000
 
 window:
     # Blank space added around the window in pixels
@@ -13,15 +18,15 @@ window:
 
 font:
     normal:
-        family: Hack Nerd Font Mono
-        style: Regular
+        family: CodeNewRoman NF
+        style: Book
     bold:
-        family: Hack Nerd Font Mono
+        family: CodeNewRoman NF
         style: Bold
     italic:
-        family: Hack Nerd Font Mono
+        family: CodeNewRoman NF
         style: Italic
-    size: 15.5
+    size: 18
 colors:
     primary:
         background: '#24272e'
@@ -66,8 +71,10 @@ mouse:
 selection:
     save_to_clipboard: true
 cursor:
-    # Thickness of the cursor (number from `0.0` to `1.0`)
     thickness: 0.18
-    # Vi mode cursor style
     vi_mode_style: Block
+    unfocused_hollow: true
+
+selection:
+    save_to_clipboard: true
 
