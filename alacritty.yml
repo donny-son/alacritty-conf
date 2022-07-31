@@ -17,14 +17,12 @@ window:
     decorations: none
 
 font:
+    family: BlexMono Nerd Font
     normal:
-        family: VictorMono NF
         style: Regular
     bold:
-        family: VictorMono Nerd Font Mono
         style: Bold
     italic:
-        family: VictorMono Nerd Font
         style: SemiBold Italic
     size: 15
 colors:
